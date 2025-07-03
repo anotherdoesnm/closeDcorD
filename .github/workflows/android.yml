@@ -28,13 +28,9 @@ jobs:
       - name: Build Discord APK
         run: ./gradlew assembleDiscordDebug
 
-      - name: Build Fosscord APK
-        run: ./gradlew assembleFosscordDebug
-
       - name: Upload apk as artifact
         uses: actions/upload-artifact@v2
         with:
           name: app
           path: |
             app/build/outputs/apk/discord/debug/app-discord-debug.apk
-            app/build/outputs/apk/fosscord/debug/app-fosscord-debug.apk
