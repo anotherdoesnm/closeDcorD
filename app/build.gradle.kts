@@ -39,7 +39,7 @@ android {
             isDefault = true
 
             buildConfigField("String", "URL_API", "\"https://api.old.server.spacebar.chat/api/v9\"")
-            buildConfigField("String", "URL_CDN", "\"https://cdn.old.server.spacebar.chat"")
+            buildConfigField("String", "URL_CDN", "\"https://cdn.old.server.spacebar.chat\"")
             buildConfigField("String", "URL_GATEWAY", "\"wss://gateway.old.server.spacebar.chat/?v=9&encoding=json\"")
         }
 
