@@ -20,8 +20,6 @@ jobs:
         with:
           java-version: 11
           distribution: 'zulu'
-          cache: 'gradle'
-
       - name: Build project with Gradle
         run: chmod +x ./gradlew && ./gradlew build
 
